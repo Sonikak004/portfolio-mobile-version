@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
 
 html {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  width:100vw;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
   height: 100vh;
 }
 
@@ -50,7 +49,7 @@ html {
 .main-page {
   display: flex;
   flex-direction: column;
-  background: #1C1A19;
+  background: #1c1a19;
   position: absolute;
   width: 375px;
   height: 595px;
@@ -67,9 +66,9 @@ html {
   font-size: 60px;
   line-height: 114%;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
   padding-left: 19px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   padding-top: 23%;
 }
 
@@ -79,20 +78,20 @@ html {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  color: #FFF5E1;
+  color: #fff5e1;
   padding-left: 19px;
 }
 
 .main-description {
   width: 331px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   margin-left: 20px;
   line-height: 24px;
   margin-top: -3px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 /* social media icons */
@@ -122,16 +121,16 @@ html {
 .second-page {
   width: 328px;
   margin-top: -225px;
-  margin-left: 23px
+  margin-left: 23px;
 }
 
 .second-heading {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
-  color: #1C1A19;
+  color: #1c1a19;
   text-align: center;
 }
 
@@ -148,35 +147,35 @@ html {
 /* multi post stories section  */
 
 .recent-work-heading {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #091E42;
+  color: #091e42;
   margin-top: 18px;
 }
 
 .recent-work-para {
-  letter-spacing: 0.40px;
+  letter-spacing: 0.4px;
   margin-top: -13px;
   width: 333px;
   height: 147px;
-  font-family: 'inter';
+  font-family: 'inter', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  color: #091E42;
+  color: #091e42;
   font-style: normal;
 }
 
 /* languages cards */
 
 .languages {
-  display:flex;
+  display: flex;
   align-items: center;
   padding: 10px 12px;
-  border: #091E42;
+  border: #091e42;
   box-sizing: content-box;
   justify-content: space-evenly;
 }
@@ -186,63 +185,63 @@ ul {
 }
 
 .item1 {
-  font-family: 'inter';
+  font-family: 'inter', sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 38px;
   margin-top: 2px;
-  color: #091E42;
+  color: #091e42;
   margin-left: -279px;
   width: 49px;
   height: 40px;
   text-align: center;
   position: absolute;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
 }
 
 .item2 {
-  font-family: 'inter';
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 38px;
-    margin-top: 2px;
-    color: #091E42;
-    margin-left: -151px;
-    width: 56px;
-    height: 40px;
-    text-align: center;
-    position: absolute;
-    border: 1px solid #8993A4;
-}
-
-.item3 {
-  font-family: 'inter';
+  font-family: 'inter', sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 38px;
   margin-top: 2px;
-  color: #091E42;
+  color: #091e42;
+  margin-left: -151px;
+  width: 56px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  border: 1px solid #8993a4;
+}
+
+.item3 {
+  font-family: 'inter', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 38px;
+  margin-top: 2px;
+  color: #091e42;
   margin-left: 27px;
   width: 95px;
   height: 40px;
   text-align: center;
   position: absolute;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
 }
 
 .item4 {
-  font-family: 'inter';
+  font-family: 'inter', sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 38px;
   margin-top: 2px;
-  color: #091E42;
+  color: #091e42;
   margin-left: 207px;
   width: 61px;
   height: 40px;
   text-align: center;
   position: absolute;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
 }
 
 /* recent work submit */
@@ -256,13 +255,13 @@ button {
   margin-top: 27px;
   height: 48px;
   border: none;
-  background: #FF6B00;
+  background: #ff6b00;
 }
 
 .button-text {
   width: 100px;
   height: 24px;
-  font-family: 'inter';
+  font-family: 'inter', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
@@ -275,24 +274,24 @@ button {
 .professional-art-text {
   width: 327px;
   margin-top: 20px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   padding-left: 14px;
   padding-top: 77px;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #FFF;
+  color: #fff;
 }
 
 #pro-images-1 {
   position: relative;
   left: 13px;
-  right: 0px;
+  right: 0;
   width: 327px;
   height: 386px;
   top: 12px;
-  bottom: 0px;
+  bottom: 0;
   background-image: url(./images/probackground.png);
   background-repeat: no-repeat;
 }
@@ -300,7 +299,7 @@ button {
 .pro-para-text {
   width: 295px;
   height: 87px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -308,26 +307,26 @@ button {
   color: #fff;
 }
 
-/* skill buttons in professional section*/
+/* skill buttons in professional section */
 
 .card1 {
-  font-family: 'inter';
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 38px;
-    margin-top: -21px;
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.24);
-    margin-left: -39px;
-    width: 56px;
-    height: 40px;
-    text-align: center;
-    position: absolute;
-    border: none;
+  font-family: 'inter', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 38px;
+  margin-top: -21px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.24);
+  margin-left: -39px;
+  width: 56px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  border: none;
 }
 
 .card2 {
-  font-family: 'inter';
+  font-family: 'inter', sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 38px;
@@ -343,7 +342,7 @@ button {
 }
 
 .card3 {
-  font-family: 'inter';
+  font-family: 'inter', sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 38px;
@@ -371,20 +370,20 @@ button {
   margin-top: 70px;
   height: 48px;
   border: none;
-  background: #FF6B00;
+  background: #ff6b00;
 }
 
 .button-text2 {
   width: 290px;
   height: 24px;
-  font-family: 'inter';
+  font-family: 'inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   color: #fff;
   line-height: 24px;
   text-decoration: none;
-  letter-spacing: 0.10em;
+  letter-spacing: 0.1em;
 }
 
 /* second professional skill card  */
@@ -392,11 +391,11 @@ button {
 #pro-images-2 {
   position: relative;
   left: 13px;
-  right: 0px;
+  right: 0;
   width: 327px;
   height: 386px;
   top: 12px;
-  bottom: 0px;
+  bottom: 0;
   background-image: url(./images/probackground.png);
   background-repeat: no-repeat;
 }
@@ -406,11 +405,11 @@ button {
 #pro-images-3 {
   position: relative;
   left: 13px;
-  right: 0px;
+  right: 0;
   width: 327px;
   height: 386px;
   top: 12px;
-  bottom: 0px;
+  bottom: 0;
   background-image: url(./images/probackground.png);
   background-repeat: no-repeat;
 }
@@ -420,11 +419,11 @@ button {
 #pro-images-4 {
   position: relative;
   left: 13px;
-  right: 0px;
+  right: 0;
   width: 327px;
   height: 386px;
   top: 12px;
-  bottom: 0px;
+  bottom: 0;
   background-image: url(./images/probackground.png);
   background-repeat: no-repeat;
 }
@@ -434,11 +433,11 @@ button {
 #pro-images-5 {
   position: relative;
   left: 13px;
-  right: 0px;
+  right: 0;
   width: 327px;
   height: 386px;
   top: 12px;
-  bottom: 0px;
+  bottom: 0;
   background-image: url(./images/probackground.png);
   background-repeat: no-repeat;
 }
@@ -448,11 +447,11 @@ button {
 #pro-images-6 {
   position: relative;
   left: 13px;
-  right: 0px;
+  right: 0;
   width: 327px;
   height: 386px;
   top: 12px;
-  bottom: 0px;
+  bottom: 0;
   background-image: url(./images/probackground.png);
   background-repeat: no-repeat;
 }
@@ -466,36 +465,35 @@ button {
   padding-right: -171px;
   height: 1901px;
   top: 4406px;
-  background: #1C1A19;
+  background: #1c1a19;
 }
 
 .about-me-text {
   width: 327px;
   height: 79px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   padding-left: 10px;
   padding-top: 30px;
   font-weight: 400;
   font-size: 72px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
-
+  color: #ff6b00;
 }
 
 .about-me-para {
   width: 327px;
   height: 148px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   padding-top: 12px;
   padding-left: 15px;
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
 
 .button3 {
@@ -509,13 +507,13 @@ button {
   height: 48px;
   margin-top: 27px;
   border: none;
-  background: #FF6B00;
+  background: #ff6b00;
 }
 
 .button-text3 {
   width: 137px;
-  height: 24px; 
-  font-family: 'Inter';
+  height: 24px;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -539,11 +537,11 @@ button {
   bottom: 68px;
 }
 
-/* skills heading*/
+/* skills heading */
 
 .about-heading-skills {
   height: 33px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   justify-content: center;
   font-style: normal;
   font-weight: 600;
@@ -551,14 +549,14 @@ button {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
-/* skills text*/
+/* skills text */
 
 .about-head-text {
   height: 36px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -566,7 +564,7 @@ button {
   display: flex;
   justify-content: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   gap: 12px;
 }
 
