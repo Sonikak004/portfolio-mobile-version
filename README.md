@@ -26,7 +26,6 @@
 
 # 📖 PORTFOLIO Mobile version <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 **[Portfolio]** is my first project built with HTML and CSS 
 
@@ -34,7 +33,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>HTML</summary>
@@ -48,7 +46,6 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 you could use this as an project to apply the basics of CSS and HTML
 
@@ -65,7 +62,6 @@ To your local directory.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author**
 
@@ -90,7 +86,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank my coding partners, mentors and microverse for giving me this oppurtunity.
 
