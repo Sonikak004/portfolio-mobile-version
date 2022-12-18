@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
 
 html {
   box-sizing: border-box;
@@ -284,18 +285,6 @@ button {
   color: #fff;
 }
 
-#pro-images-1 {
-  position: relative;
-  left: 13px;
-  right: 0;
-  width: 327px;
-  height: 386px;
-  top: 12px;
-  bottom: 0;
-  background-image: url(./images/probackground.png);
-  background-repeat: no-repeat;
-}
-
 .pro-para-text {
   width: 295px;
   height: 87px;
@@ -388,9 +377,21 @@ button {
 
 /* second professional skill card  */
 
+#pro-images-1 {
+  position: relative;
+  left: 22px;
+  right: 0;
+  width: 327px;
+  height: 386px;
+  top: 12px;
+  bottom: 0;
+  background-image: url(./images/probackground.png);
+  background-repeat: no-repeat;
+}
+
 #pro-images-2 {
   position: relative;
-  left: 13px;
+  left: 22px;
   right: 0;
   width: 327px;
   height: 386px;
@@ -404,7 +405,7 @@ button {
 
 #pro-images-3 {
   position: relative;
-  left: 13px;
+  left: 22px;
   right: 0;
   width: 327px;
   height: 386px;
@@ -418,7 +419,7 @@ button {
 
 #pro-images-4 {
   position: relative;
-  left: 13px;
+  left: 22px;
   right: 0;
   width: 327px;
   height: 386px;
@@ -432,7 +433,7 @@ button {
 
 #pro-images-5 {
   position: relative;
-  left: 13px;
+  left: 22px;
   right: 0;
   width: 327px;
   height: 386px;
@@ -446,10 +447,10 @@ button {
 
 #pro-images-6 {
   position: relative;
-  left: 13px;
+  left: 22px;
   right: 0;
   width: 327px;
-  height: 386px;
+  height: 432px;
   top: 12px;
   bottom: 0;
   background-image: url(./images/probackground.png);
@@ -461,7 +462,7 @@ button {
 .about-me {
   position: absolute;
   left: -2px;
-  width: 356px;
+  width: 377px;
   padding-right: -171px;
   height: 1901px;
   top: 4406px;
@@ -473,7 +474,7 @@ button {
   height: 79px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  padding-left: 10px;
+  padding-left: 25px;
   padding-top: 30px;
   font-weight: 400;
   font-size: 72px;
@@ -489,7 +490,7 @@ button {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   padding-top: 12px;
-  padding-left: 15px;
+  padding-left: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
@@ -503,7 +504,7 @@ button {
   padding: 12px;
   gap: 10px;
   width: 161px;
-  margin-left: 15px;
+  margin-left: 24px;
   height: 48px;
   margin-top: 27px;
   border: none;
@@ -528,11 +529,11 @@ button {
   width: 141px;
   top: -63px;
   position: relative;
-  left: 215px;
+  left: 236px;
 }
 
 .line {
-  width: 299px;
+  width: 320px;
   position: relative;
   bottom: 68px;
 }
@@ -545,6 +546,7 @@ button {
   justify-content: center;
   font-style: normal;
   font-weight: 600;
+  margin-left: 25px;
   font-size: 32px;
   line-height: 44px;
   display: flex;
@@ -561,6 +563,7 @@ button {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
+  margin-left: 11px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -572,15 +575,120 @@ button {
 
 .diamond-img {
   position: absolute;
-  left: 65px;
+  left: 75px;
 }
 
 .square-img {
   position: absolute;
-  left: 53px;
+  left: 78px;
 }
 
 .circle-img {
   position: absolute;
-  left: 115px;
+  left: 133px;
+}
+
+/* contact me for */
+
+.contact-me {
+  display: flex;
+  padding-top: 234px;
+  justify-content: center;
+}
+
+.contact-me-para{
+  width: 321px;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #172B4D;
+  padding-left: 18px;
+  font-size: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  line-height: 44px;
+  text-align: center;
+}
+
+.no-outlin:focus {
+   outline: none;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-color: #DBD8D7;
+  color: #979493;
+  width: 287px;
+  position: relative;
+  left: -25px;
+  top: 47px;
+  padding: 26px;
+  margin-bottom: 5px;
+  outline: none;
+}
+
+.text-area{
+  color: #3C3A39;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-color: #DBD8D7;
+  width: 314px;
+  padding-left: 21px;
+  margin-top: 2px;
+  padding-top: 19px;
+  margin-bottom: 5px;
+  outline: none;
+  position: absolute;
+  left: 19px;
+  right: 12px;
+  top: 2579px;
+  bottom: -794px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.button4 {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Inter';
+  align-items: center;
+  padding-left: 25px;
+  gap: 10px;
+  color: white;
+  font-weight: 600;
+  padding-top: 17px;
+  width: 161px;
+  margin-left: 77px;
+  height: 48px;
+  margin-top: 275px;
+  background: #ff6b00;
+}
+
+/* bottom dark social media Icons */
+
+.social-media-dark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 145px;
+  margin-left: 98px;
+}
+
+.footer-line {
+  width: 147px;
+  background-color: #0D151E;
+  height: 4px;
+  size: 110px;
+  top: -3px;
+  border-radius: 10px;
+  position: relative;
+  left: 11px;
 }
