@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <img src="./images\microverse-image.png" alt="logo" width="140"  height="auto" />
+  <img src="images\microverse-image.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Sonika's Portfolio</b></h3>
