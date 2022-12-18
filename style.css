@@ -596,13 +596,13 @@ button {
   justify-content: center;
 }
 
-.contact-me-para{
+.contact-me-para {
   width: 321px;
   height: 216px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  color: #172B4D;
+  color: #172b4d;
   padding-left: 18px;
   font-size: 32px;
   display: flex;
@@ -613,14 +613,14 @@ button {
 }
 
 .no-outlin:focus {
-   outline: none;
+  outline: none;
 }
 
 input {
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
-  border-bottom-color: #DBD8D7;
+  border-bottom-color: #dbd8d7;
   color: #979493;
   width: 287px;
   position: relative;
@@ -631,12 +631,12 @@ input {
   outline: none;
 }
 
-.text-area{
-  color: #3C3A39;
+.text-area {
+  color: #3c3a39;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
-  border-bottom-color: #DBD8D7;
+  border-bottom-color: #dbd8d7;
   width: 314px;
   padding-left: 21px;
   margin-top: 2px;
@@ -658,7 +658,7 @@ input {
 .button4 {
   display: flex;
   flex-direction: row;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   align-items: center;
   padding-left: 25px;
   gap: 10px;
@@ -682,9 +682,11 @@ input {
   margin-left: 98px;
 }
 
+/* footer line at the end */
+
 .footer-line {
   width: 147px;
-  background-color: #0D151E;
+  background-color: #0d151e;
   height: 4px;
   size: 110px;
   top: -3px;
