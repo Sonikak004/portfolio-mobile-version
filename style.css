@@ -77,7 +77,7 @@ html {
   width: 331px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 24px;
   color: #fff5e1;
   padding-left: 19px;
@@ -110,18 +110,18 @@ html {
 
 /* background image main-page */
 
-.main-background {
-  width: 141px;
-  top: -261px;
-  position: relative;
-  left: 234px;
+#background-main {
+  background-image: url("./images/mainbackground.png");
+  background-repeat: no-repeat;
+  background-position-x: 228px;
+  background-position-y: 226px;
 }
 
 /* my recent work page */
 
 .second-page {
   width: 328px;
-  margin-top: -225px;
+  margin-top: 130px;
   margin-left: 23px;
 }
 
@@ -464,9 +464,13 @@ button {
   left: -2px;
   width: 377px;
   padding-right: -171px;
-  height: 1901px;
+  height: 1960px;
   top: 4406px;
   background: #1c1a19;
+  background-image: url(./images/Group.png);
+  background-repeat: no-repeat;
+  background-position-x: 217px;
+  background-position-y: 392px;
 }
 
 .about-me-text {
@@ -535,10 +539,15 @@ button {
 .line {
   width: 320px;
   position: relative;
-  bottom: 68px;
+  top: 195px;
 }
 
 /* skills heading */
+
+.about-me-section {
+  position: relative;
+  top: 294px;
+}
 
 .about-heading-skills {
   height: 33px;
@@ -592,7 +601,7 @@ button {
 
 .contact-me {
   display: flex;
-  padding-top: 234px;
+  padding-top: 315px;
   justify-content: center;
 }
 
@@ -603,6 +612,7 @@ button {
   font-style: normal;
   font-weight: 700;
   color: #172b4d;
+  padding-top: 180px;
   padding-left: 18px;
   font-size: 32px;
   display: flex;
@@ -639,9 +649,9 @@ input {
   border-bottom-color: #dbd8d7;
   width: 314px;
   padding-left: 21px;
-  margin-top: 2px;
+  margin-top: 25px;
   padding-top: 19px;
-  margin-bottom: 5px;
+  margin-bottom: 38px;
   outline: none;
   position: absolute;
   left: 19px;
