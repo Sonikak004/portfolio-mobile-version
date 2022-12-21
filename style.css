@@ -301,9 +301,8 @@ button {
 }
 
 .button-text:disabled {
-  color:#1c1a19;
+  color: #1c1a19;
 }
-
 
 /* professional art cards */
 
@@ -432,11 +431,6 @@ button {
   font-weight: 600;
 }
 
-.button-text2:hover {
-  color: #ff6b00;
-  font-weight: 600;
-}
-
 .button-text2:active {
   color: #fff;
   font-weight: 600;
@@ -444,7 +438,7 @@ button {
 }
 
 .button-text2:disabled {
-  color:#1c1a19;
+  color: #1c1a19;
 }
 
 /* second professional skill card  */
@@ -621,11 +615,6 @@ button {
   font-weight: 600;
 }
 
-.button-text3:hover {
-  color: #ff6b00;
-  font-weight: 600;
-}
-
 .button-text3:active {
   color: #fff;
   font-weight: 600;
@@ -633,8 +622,9 @@ button {
 }
 
 .button-text3:disabled {
-  color:#1c1a19;
+  color: #1c1a19;
 }
+
 /* background image for about-me-page */
 
 .about-me-background {
@@ -792,6 +782,7 @@ input {
 .button4:hover {
   background-color: #fff;
   border: 2px solid #ff6b00;
+
   /* padding: 5px; */
   color: #ff6b00;
   font-weight: 600;
@@ -806,10 +797,8 @@ input {
 
 .button4:disabled {
   background-color: #fff;
-  color:#1c1a19;
+  color: #1c1a19;
 }
-
-
 
 /* bottom dark social media Icons */
 
