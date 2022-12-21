@@ -263,6 +263,18 @@ button {
 
 .btn:hover {
   background-color: #fff;
+  border: 1px solid #ff6b00;
+  padding: 5px;
+}
+
+.btn:active {
+  background-color: #ff6b00;
+  color: #f4f5f7;
+  transform: scale(0.98);
+}
+
+.btn:disabled {
+  background-color: #fff;
 }
 
 .button-text {
@@ -281,6 +293,17 @@ button {
   color: #ff6b00;
   font-weight: 600;
 }
+
+.button-text:active {
+  color: #fff;
+  font-weight: 600;
+  transform: scale(0.98);
+}
+
+.button-text:disabled {
+  color:#1c1a19;
+}
+
 
 /* professional art cards */
 
@@ -390,11 +413,38 @@ button {
 
 .button2:hover {
   background-color: #fff;
+  border: 1px solid #ff6b00;
+  padding: 5px;
+}
+
+.button2:active {
+  background-color: #ff6b00;
+  color: #f4f5f7;
+  transform: scale(0.98);
+}
+
+.button2:disabled {
+  background-color: #fff;
 }
 
 .button-text2:hover {
   color: #ff6b00;
   font-weight: 600;
+}
+
+.button-text2:hover {
+  color: #ff6b00;
+  font-weight: 600;
+}
+
+.button-text2:active {
+  color: #fff;
+  font-weight: 600;
+  transform: scale(0.98);
+}
+
+.button-text2:disabled {
+  color:#1c1a19;
 }
 
 /* second professional skill card  */
@@ -552,15 +602,39 @@ button {
 
 .button3:hover {
   background-color: #fff;
+  border: 2px solid #ff6b00;
+  padding: 5px;
+}
+
+.button3:active {
+  background-color: #ff6b00;
+  color: #f4f5f7;
+  transform: scale(0.98);
+}
+
+.button3:disabled {
+  background-color: #fff;
 }
 
 .button-text3:hover {
   color: #ff6b00;
   font-weight: 600;
-  border: 2px;
-  border-color: #091e42;
 }
 
+.button-text3:hover {
+  color: #ff6b00;
+  font-weight: 600;
+}
+
+.button-text3:active {
+  color: #fff;
+  font-weight: 600;
+  transform: scale(0.98);
+}
+
+.button-text3:disabled {
+  color:#1c1a19;
+}
 /* background image for about-me-page */
 
 .about-me-background {
@@ -717,9 +791,25 @@ input {
 
 .button4:hover {
   background-color: #fff;
+  border: 2px solid #ff6b00;
+  /* padding: 5px; */
   color: #ff6b00;
   font-weight: 600;
 }
+
+.button4:active {
+  background-color: #ff6b00;
+  color: #f4f5f7;
+  transform: scale(0.98);
+  font-weight: 600;
+}
+
+.button4:disabled {
+  background-color: #fff;
+  color:#1c1a19;
+}
+
+
 
 /* bottom dark social media Icons */
 
