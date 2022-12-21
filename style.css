@@ -257,6 +257,12 @@ button {
   height: 48px;
   border: none;
   background: #ff6b00;
+  border-color: #ff6b00;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
 }
 
 .button-text {
@@ -264,10 +270,16 @@ button {
   height: 24px;
   font-family: 'inter', sans-serif;
   font-style: normal;
+  padding: 2px;
   font-weight: 300;
   font-size: 17px;
   color: #fff;
   line-height: 24px;
+}
+
+.button-text:hover {
+  color: #ff6b00;
+  font-weight: 600;
 }
 
 /* professional art cards */
@@ -370,9 +382,19 @@ button {
   font-weight: 700;
   font-size: 17px;
   color: #fff;
+  padding: 14px;
   line-height: 24px;
   text-decoration: none;
   letter-spacing: 0.1em;
+}
+
+.button2:hover {
+  background-color: #fff;
+}
+
+.button-text2:hover {
+  color: #ff6b00;
+  font-weight: 600;
 }
 
 /* second professional skill card  */
@@ -522,9 +544,21 @@ button {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
+  padding: 3px;
   line-height: 24px;
   text-decoration: none;
   color: #fff;
+}
+
+.button3:hover {
+  background-color: #fff;
+}
+
+.button-text3:hover {
+  color: #ff6b00;
+  font-weight: 600;
+  border: 2px;
+  border-color: #091e42;
 }
 
 /* background image for about-me-page */
@@ -539,14 +573,14 @@ button {
 .line {
   width: 320px;
   position: relative;
-  top: 195px;
+  top: 224px;
 }
 
 /* skills heading */
 
 .about-me-section {
   position: relative;
-  top: 294px;
+  top: 330px;
 }
 
 .about-heading-skills {
@@ -612,7 +646,7 @@ button {
   font-style: normal;
   font-weight: 700;
   color: #172b4d;
-  padding-top: 180px;
+  padding-top: 217px;
   padding-left: 18px;
   font-size: 32px;
   display: flex;
@@ -650,7 +684,6 @@ input {
   width: 314px;
   padding-left: 21px;
   margin-top: 25px;
-  padding-top: 19px;
   margin-bottom: 38px;
   outline: none;
   position: absolute;
@@ -680,6 +713,12 @@ input {
   height: 48px;
   margin-top: 275px;
   background: #ff6b00;
+}
+
+.button4:hover {
+  background-color: #fff;
+  color: #ff6b00;
+  font-weight: 600;
 }
 
 /* bottom dark social media Icons */
