@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
 
 html {
   box-sizing: border-box;
@@ -76,7 +77,7 @@ html {
   width: 331px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 24px;
   color: #fff5e1;
   padding-left: 19px;
@@ -109,18 +110,18 @@ html {
 
 /* background image main-page */
 
-.main-background {
-  width: 141px;
-  top: -261px;
-  position: relative;
-  left: 234px;
+#background-main {
+  background-image: url("./images/mainbackground.png");
+  background-repeat: no-repeat;
+  background-position-x: 228px;
+  background-position-y: 226px;
 }
 
 /* my recent work page */
 
 .second-page {
   width: 328px;
-  margin-top: -225px;
+  margin-top: 130px;
   margin-left: 23px;
 }
 
@@ -256,6 +257,24 @@ button {
   height: 48px;
   border: none;
   background: #ff6b00;
+  border-color: #ff6b00;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  padding: 5px;
+}
+
+.btn:active {
+  background-color: #ff6b00;
+  color: #f4f5f7;
+  transform: scale(0.98);
+}
+
+.btn:disabled {
+  background-color: #fff;
 }
 
 .button-text {
@@ -263,10 +282,26 @@ button {
   height: 24px;
   font-family: 'inter', sans-serif;
   font-style: normal;
+  padding: 2px;
   font-weight: 300;
   font-size: 17px;
   color: #fff;
   line-height: 24px;
+}
+
+.button-text:hover {
+  color: #ff6b00;
+  font-weight: 600;
+}
+
+.button-text:active {
+  color: #fff;
+  font-weight: 600;
+  transform: scale(0.98);
+}
+
+.button-text:disabled {
+  color: #1c1a19;
 }
 
 /* professional art cards */
@@ -282,18 +317,6 @@ button {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-}
-
-#pro-images-1 {
-  position: relative;
-  left: 13px;
-  right: 0;
-  width: 327px;
-  height: 386px;
-  top: 12px;
-  bottom: 0;
-  background-image: url(./images/probackground.png);
-  background-repeat: no-repeat;
 }
 
 .pro-para-text {
@@ -381,16 +404,60 @@ button {
   font-weight: 700;
   font-size: 17px;
   color: #fff;
+  padding: 14px;
   line-height: 24px;
   text-decoration: none;
   letter-spacing: 0.1em;
 }
 
+.button2:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  padding: 5px;
+}
+
+.button2:active {
+  background-color: #ff6b00;
+  color: #f4f5f7;
+  transform: scale(0.98);
+}
+
+.button2:disabled {
+  background-color: #fff;
+}
+
+.button-text2:hover {
+  color: #ff6b00;
+  font-weight: 600;
+}
+
+.button-text2:active {
+  color: #fff;
+  font-weight: 600;
+  transform: scale(0.98);
+}
+
+.button-text2:disabled {
+  color: #1c1a19;
+}
+
 /* second professional skill card  */
+
+#pro-images-1 {
+  position: relative;
+  left: 22px;
+  right: 0;
+  width: 327px;
+  height: 386px;
+  top: 12px;
+  bottom: 0;
+  background-image: url(./images/probackground.png);
+  background-repeat: no-repeat;
+}
 
 #pro-images-2 {
   position: relative;
-  left: 13px;
+  left: 22px;
   right: 0;
   width: 327px;
   height: 386px;
@@ -404,7 +471,7 @@ button {
 
 #pro-images-3 {
   position: relative;
-  left: 13px;
+  left: 22px;
   right: 0;
   width: 327px;
   height: 386px;
@@ -418,7 +485,7 @@ button {
 
 #pro-images-4 {
   position: relative;
-  left: 13px;
+  left: 22px;
   right: 0;
   width: 327px;
   height: 386px;
@@ -432,7 +499,7 @@ button {
 
 #pro-images-5 {
   position: relative;
-  left: 13px;
+  left: 22px;
   right: 0;
   width: 327px;
   height: 386px;
@@ -446,10 +513,10 @@ button {
 
 #pro-images-6 {
   position: relative;
-  left: 13px;
+  left: 22px;
   right: 0;
   width: 327px;
-  height: 386px;
+  height: 432px;
   top: 12px;
   bottom: 0;
   background-image: url(./images/probackground.png);
@@ -461,11 +528,15 @@ button {
 .about-me {
   position: absolute;
   left: -2px;
-  width: 356px;
+  width: 377px;
   padding-right: -171px;
-  height: 1901px;
+  height: 1960px;
   top: 4406px;
   background: #1c1a19;
+  background-image: url(./images/Group.png);
+  background-repeat: no-repeat;
+  background-position-x: 217px;
+  background-position-y: 392px;
 }
 
 .about-me-text {
@@ -473,7 +544,7 @@ button {
   height: 79px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  padding-left: 10px;
+  padding-left: 25px;
   padding-top: 30px;
   font-weight: 400;
   font-size: 72px;
@@ -489,7 +560,7 @@ button {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   padding-top: 12px;
-  padding-left: 15px;
+  padding-left: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
@@ -503,7 +574,7 @@ button {
   padding: 12px;
   gap: 10px;
   width: 161px;
-  margin-left: 15px;
+  margin-left: 24px;
   height: 48px;
   margin-top: 27px;
   border: none;
@@ -517,9 +588,41 @@ button {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
+  padding: 3px;
   line-height: 24px;
   text-decoration: none;
   color: #fff;
+}
+
+.button3:hover {
+  background-color: #fff;
+  border: 2px solid #ff6b00;
+  padding: 5px;
+}
+
+.button3:active {
+  background-color: #ff6b00;
+  color: #f4f5f7;
+  transform: scale(0.98);
+}
+
+.button3:disabled {
+  background-color: #fff;
+}
+
+.button-text3:hover {
+  color: #ff6b00;
+  font-weight: 600;
+}
+
+.button-text3:active {
+  color: #fff;
+  font-weight: 600;
+  transform: scale(0.98);
+}
+
+.button-text3:disabled {
+  color: #1c1a19;
 }
 
 /* background image for about-me-page */
@@ -528,16 +631,21 @@ button {
   width: 141px;
   top: -63px;
   position: relative;
-  left: 215px;
+  left: 236px;
 }
 
 .line {
-  width: 299px;
+  width: 320px;
   position: relative;
-  bottom: 68px;
+  top: 224px;
 }
 
 /* skills heading */
+
+.about-me-section {
+  position: relative;
+  top: 330px;
+}
 
 .about-heading-skills {
   height: 33px;
@@ -545,6 +653,7 @@ button {
   justify-content: center;
   font-style: normal;
   font-weight: 600;
+  margin-left: 25px;
   font-size: 32px;
   line-height: 44px;
   display: flex;
@@ -561,6 +670,7 @@ button {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
+  margin-left: 11px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -572,15 +682,143 @@ button {
 
 .diamond-img {
   position: absolute;
-  left: 65px;
+  left: 75px;
 }
 
 .square-img {
   position: absolute;
-  left: 53px;
+  left: 78px;
 }
 
 .circle-img {
   position: absolute;
-  left: 115px;
+  left: 133px;
+}
+
+/* contact me for */
+
+.contact-me {
+  display: flex;
+  padding-top: 315px;
+  justify-content: center;
+}
+
+.contact-me-para {
+  width: 321px;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #172b4d;
+  padding-top: 217px;
+  padding-left: 18px;
+  font-size: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  line-height: 44px;
+  text-align: center;
+}
+
+.no-outlin:focus {
+  outline: none;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-color: #dbd8d7;
+  color: #979493;
+  width: 287px;
+  position: relative;
+  left: -25px;
+  top: 47px;
+  padding: 26px;
+  margin-bottom: 5px;
+  outline: none;
+}
+
+.text-area {
+  color: #3c3a39;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-color: #dbd8d7;
+  width: 314px;
+  padding-left: 21px;
+  margin-top: 25px;
+  margin-bottom: 38px;
+  outline: none;
+  position: absolute;
+  left: 19px;
+  right: 12px;
+  top: 2579px;
+  bottom: -794px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.button4 {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Inter', sans-serif;
+  align-items: center;
+  padding-left: 25px;
+  gap: 10px;
+  color: white;
+  font-weight: 600;
+  padding-top: 17px;
+  width: 161px;
+  margin-left: 77px;
+  height: 48px;
+  margin-top: 275px;
+  background: #ff6b00;
+}
+
+.button4:hover {
+  background-color: #fff;
+  border: 2px solid #ff6b00;
+
+  /* padding: 5px; */
+  color: #ff6b00;
+  font-weight: 600;
+}
+
+.button4:active {
+  background-color: #ff6b00;
+  color: #f4f5f7;
+  transform: scale(0.98);
+  font-weight: 600;
+}
+
+.button4:disabled {
+  background-color: #fff;
+  color: #1c1a19;
+}
+
+/* bottom dark social media Icons */
+
+.social-media-dark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 145px;
+  margin-left: 98px;
+}
+
+/* footer line at the end */
+
+.footer-line {
+  width: 147px;
+  background-color: #0d151e;
+  height: 4px;
+  size: 110px;
+  top: -3px;
+  border-radius: 10px;
+  position: relative;
+  left: 11px;
 }
